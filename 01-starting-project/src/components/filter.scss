@@ -1,0 +1,53 @@
+div {
+    .filter {
+      margin: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      input {
+        width: 40rem;
+        border-color: gray;
+        font-size: inherit;
+        outline: none;
+        padding: 0.25rem;
+        border-radius: 10px;
+      }
+    }
+  .heading {
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+
+    table,
+    tr,
+    th {
+      border: 1px solid black;
+    }
+    table {
+      border-collapse: collapse;
+      width: 80%;
+    }
+    th {
+      width: 10rem;
+    }
+  }
+
+  .items {
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+
+    table,
+    tr,
+    td {
+      border: 1px solid black;
+    }
+    table {
+      border-collapse: collapse;
+      width: 80%;
+    }
+    td {
+      width: 10rem;
+    }
+  }
+}
